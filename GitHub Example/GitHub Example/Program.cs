@@ -9,6 +9,7 @@ public class Program{
             new HogwartsStudentRebecca(), 
             new HogwartsStudentNJ(),
             new HogwartStudentCait(),       
+            new HogwartStudentLirisa(),
         };
 
         foreach(HogwartsStudent s in hogwartsStudents){
