@@ -1,30 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GitHub_Example
 {
-    public class HogwartsStudentRebecca : HogwartsStudent
+    public class HogwartsStudentNJ : HogwartsStudent
     {
 
-        public HogwartsStudentRebecca() : base(3, 49, House.Gryffindor){
+
+        public HogwartsStudentNJ() : base(100, 100, House.Gryffindor)
+        {
 
 
         }
 
-        public override string Name { get { return "Rebecca"; } }
+        public override string Name { get { return "NJ"; } }
 
         protected override string SayCatchPhrase()
         {
-            string catchPhrase = "It's a Horse";
+            string catchPhrase = "I wanna Cry";
             return catchPhrase;
         }
         protected override string CastSpell()
         {
-            string spell = "HenkHelp-iamus";
+            string spell = "Expelliarmus";
             return spell;
         }
     }

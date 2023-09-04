@@ -1,3 +1,4 @@
+using GitHub_Example;
 using static System.Console;
 
 public class Program{
@@ -5,6 +6,8 @@ public class Program{
     static void Main(){
         HogwartsStudent[] hogwartsStudents = {
             //new HogwartsStudentHenk(100, 20, House.Slytherin),
+            new HogwartsStudentRebecca(), 
+            new HogwartsStudentNJ(),
         };
 
         foreach(HogwartsStudent s in hogwartsStudents){
