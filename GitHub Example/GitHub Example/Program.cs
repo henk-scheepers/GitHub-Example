@@ -5,9 +5,10 @@ public class Program{
 
     static void Main(){
         HogwartsStudent[] hogwartsStudents = {
-            //new HogwartsStudentHenk(100, 20, House.Slytherin),
+
             new HogwartsStudentRebecca(), 
             new HogwartsStudentNJ(),
+            new HogwartStudentCait(),       
         };
 
         foreach(HogwartsStudent s in hogwartsStudents){
