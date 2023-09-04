@@ -3,11 +3,11 @@ using static System.Console;
 public class Program{
 
     static void Main(){
-        HogwartsStudent[] hogwartsStudents = {
+        HogwartStudent[] hogwartsStudents = {
             //new HogwartsStudentHenk(100, 20, House.Slytherin),
         };
 
-        foreach(HogwartsStudent s in hogwartsStudents){
+        foreach(HogwartStudent s in hogwartsStudents){
             WriteLine(s);
         }
     }
